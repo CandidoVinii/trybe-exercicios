@@ -1,0 +1,19 @@
+body{
+    font-size: 16px;
+    background-color: grey;
+}
+  h1{
+      font-family: sans-serif;
+      font-size: 65px;
+      color: orange;
+      text-align: center;
+  }
+  p{
+    font-weight: 600px;
+    font-size: 48px;
+  }
+  .Cor-do-fundo{
+      background-color: grey;
+      text-align: center;
+      border: solid black 1px;
+  }
