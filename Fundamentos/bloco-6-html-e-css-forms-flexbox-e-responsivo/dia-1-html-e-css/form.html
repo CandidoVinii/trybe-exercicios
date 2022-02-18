@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TrybeTrip</h1>
+    </header>
+
+    <form action="" id="forms">
+        <div class="form-style">
+            <div class="input-text">
+                <label for="full-name">Name: </label><input type="text" required name="full-name" id="nome-do-usuario">
+                <br>
+                <label for="email">Email: </label><input type="email" required name="email" id="email-do-usuario">
+            </div>
+
+            <div class="radio-style">
+                <input type="radio" name="locais" id="local1">
+                <label for="local1">Ibtipoca</label> 
+                <input type="radio" name="locais" id="local2">
+                <label for="local2">Salvador</label>
+                <input type="radio" name="locais" id="local3">
+                <label for="local3">Rio de Janeiro</label>
+                <input type="radio" name="locais" id="local4">
+                <label for="local4">Santos</label>
+            </div>
+        
+            <div>
+                <p>Espaço para digitar a resposta:</p>
+                <textarea name="text" id="" required cols="50" rows="10" maxlength="500"></textarea>
+            </div>
+
+            <div>
+                <label for="date">Qual a melhor data para realizar sua viagem?</label>  
+                <input type="date" required name="date" id="date-1">
+            </div>
+
+            <div>
+                <label for="opcoes">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                <input type="checkbox" required name="opcoes" id="">
+                <br>
+                <label for="opcoes">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                <input type="checkbox" required name="opcoes" id="">
+            </div>
+        </div>
+            <div class="style-button">
+                <button type="submit" id="envia">Enviar</button>
+                <button type="submit" id="apaga">Apagar</button>
+            </div>
+    </form>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
