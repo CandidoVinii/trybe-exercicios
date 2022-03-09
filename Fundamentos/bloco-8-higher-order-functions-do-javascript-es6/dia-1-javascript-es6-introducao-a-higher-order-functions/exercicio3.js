@@ -18,6 +18,7 @@ const conta = (respostaCerta, repostaAluno, adiciona) => {
         contador += adicionaReturn;
     }
     return `Resultado final: ${contador} pontos`;
+		
 };
 
 console.log(conta(RIGHT_ANSWERS, STUDENT_ANSWERS, comparaRespostas));
