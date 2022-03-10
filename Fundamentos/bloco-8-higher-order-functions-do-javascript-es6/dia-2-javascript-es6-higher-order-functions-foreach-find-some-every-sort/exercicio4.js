@@ -60,19 +60,18 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
-  // Adicione o código do exercício aqui:
 
-  function authorBornIn1947() {
-    return books.find((books) => books.author.birthYear === 1947).author.name;
+  function booksOrderedByReleaseYearDesc() {
+    const ordena = books.sort(function(a, b){
+        if(a.releaseYear < b.releaseYear){
+            return 1;
+        }
+        if(a.releaseYear > b.releaseYear){
+            return -1;
+        }
+            return 0;
+    })
+    return ordena;
   }
 
-  module.exports = authorBornIn1947;
-
-
-  
-
-  
-
-
-
+module.exports = booksOrderedByReleaseYearDesc;
