@@ -70,3 +70,5 @@ function getNamedBook() {
     })
     return nameBook;
   }
+
+module.exports = getNamedBook;
