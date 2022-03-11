@@ -66,6 +66,7 @@ function getNamedBook() {
     books.forEach((books) => {
         if(!nameBook || books.name.length === 26){
             nameBook = books.name
+            
         }
     })
     return nameBook;
