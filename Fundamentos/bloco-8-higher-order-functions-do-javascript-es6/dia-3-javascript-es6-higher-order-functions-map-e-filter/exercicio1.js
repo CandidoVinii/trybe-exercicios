@@ -80,7 +80,6 @@ function nameAndAge() {
       }
     ))
     .sort((a, b) => a.age - b.age);
-
     return result
 }
   
