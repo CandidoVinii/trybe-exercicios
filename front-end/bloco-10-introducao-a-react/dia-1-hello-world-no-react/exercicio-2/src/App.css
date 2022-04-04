@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: burlywood;
+  border-radius: 5px;
+}
+
+.content {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content h4 {
+  color: crimson;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
