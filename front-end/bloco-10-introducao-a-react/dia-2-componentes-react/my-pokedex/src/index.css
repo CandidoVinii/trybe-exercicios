@@ -1,0 +1,45 @@
+body {
+  background: url('https://www.itl.cat/pngfile/big/0-1704_pokemon-gen-1-background.jpg');
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size: 30px;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: dotted;
+  color: white;
+}
+
+.pokemon {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 0;
+  min-width: 30%;
+  margin: 10px 10px;
+  background-color: deepskyblue;
+  border-radius: 10px;
+}
+
+.pokemon:hover {
+  background-color: darkslateblue;
+  color: white;
+  box-shadow: 5px 5px 5px 2px darkslateblue;
+}
+
+.pokedex {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px 2px;
+  align-items: center;
+}
